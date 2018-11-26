@@ -387,8 +387,8 @@ body.ratio #logo {
       position: absolute;
       border: solid white;
       border-width: 0 4px 4px 0;
-      width: 25px;
-      height: 25px;
+      width: 15px;
+      height: 15px;
       display: inline-block;
       margin-top: 10%;
       padding: 5px;
@@ -1091,11 +1091,10 @@ body.ratio #logo {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         display: inline-block;
         margin-top: 5px;
-        padding: 5px;
         margin-left: 47%;
   }
 
@@ -1108,7 +1107,7 @@ body.ratio #logo {
         top: 0.5vw;
         padding: 2.5vw 2% 5vw 3%;
         left: auto;
-        width: 86%;
+        width: 80%;
         margin: 0 auto;
     }
 }
@@ -1138,7 +1137,7 @@ body.ratio #logo {
     }
 }
 
-@media (min-width: 1380px), (max-height: 690px) {
+@media (min-width: 1380px), (max-height: 780px) {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
