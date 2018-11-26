@@ -384,12 +384,13 @@ body.ratio #logo {
 
 /*arrow*/
 .left i {
+      position: absolute;
       border: solid white;
       border-width: 0 4px 4px 0;
       width: 25px;
       height: 25px;
       display: inline-block;
-      margin-top: 30px;
+      margin-top: 10%;
       padding: 5px;
       margin-left: 150%;
 
@@ -1134,5 +1135,56 @@ body.ratio #logo {
         left: auto;
         width: 86%;
         margin: 0 auto;
+    }
+}
+
+@media (max-height: 640px) {
+  .left i {
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        margin-top: -10px;
+
+  }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@media (max-height: 570px) {
+  .left i {
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        margin-top: -80px;
+
+  }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@media (max-height: 500px) {
+  .left i {
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        margin-top: -180px;
+
+  }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
     }
 }
