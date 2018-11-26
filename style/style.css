@@ -1138,7 +1138,7 @@ body.ratio #logo {
     }
 }
 
-@media (max-height: 640px) {
+@media (max-height: 690px) {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
@@ -1155,7 +1155,7 @@ body.ratio #logo {
     }
 }
 
-@media (max-height: 570px) {
+@media (max-height: 620px) {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
@@ -1172,7 +1172,7 @@ body.ratio #logo {
     }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 540px) {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
@@ -1182,7 +1182,6 @@ body.ratio #logo {
         margin-top: -180px;
 
   }
-
     .down {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
