@@ -1094,7 +1094,7 @@ body.ratio #logo {
         width: 10px;
         height: 10px;
         display: inline-block;
-        margin-top: 25px;
+        margin-top: 5px;
         padding: 5px;
         margin-left: 47%;
   }
@@ -1138,50 +1138,17 @@ body.ratio #logo {
     }
 }
 
-@media (max-height: 690px) {
+@media (min-width: 1380px), (max-height: 690px) {
   .left i {
         border: solid white;
         border-width: 0 4px 4px 0;
         width: 15px;
         height: 15px;
         display: inline-block;
-        margin-top: -10px;
+        margin-top: -15px;
 
   }
 
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-    }
-}
-
-@media (max-height: 620px) {
-  .left i {
-        border: solid white;
-        border-width: 0 4px 4px 0;
-        width: 15px;
-        height: 15px;
-        display: inline-block;
-        margin-top: -80px;
-
-  }
-
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-    }
-}
-
-@media (max-height: 540px) {
-  .left i {
-        border: solid white;
-        border-width: 0 4px 4px 0;
-        width: 15px;
-        height: 15px;
-        display: inline-block;
-        margin-top: -180px;
-
-  }
     .down {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
