@@ -393,12 +393,52 @@ body.ratio #logo {
       margin-top: 10%;
       padding: 5px;
       margin-left: 150%;
+}
+
+.down {
+    transform: rotate(45deg);
+    animation: bounce 0.8s infinite alternate;
+    -webkit-animation: bounce 0.8s infinite alternate;
 
 }
-  .down {
-      transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
+
+@keyframes bounce {
+  from {
+     top: 45vh;
   }
+  to {
+    top: 42vh;
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+     top: 45vh;
+  }
+  to {
+    top: 42vh;
+  }
+}
+
+
+/* @keyframes bounce {
+  from {
+     top: 390px;
+  }
+  to {
+    top: 370px;
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    top: 390px;
+  }
+  to {
+    top: 370px;
+  }
+} */
+
 
 @media (min-width: 1081px) {
 
@@ -1055,10 +1095,30 @@ body.ratio #logo {
           margin-left: 47%;
     }
 
-      .down {
-          transform: rotate(45deg);
-          -webkit-transform: rotate(45deg);
+    .down {
+        transform: rotate(45deg);
+        animation: bounce 0.8s infinite alternate;
+        -webkit-animation: bounce 0.8s infinite alternate;
+
+    }
+
+    @keyframes bounce {
+      from {
+         margin-top: 110px;
       }
+      to {
+        margin-top: 100px;
+      }
+    }
+
+    @-webkit-keyframes bounce {
+      from {
+         margin-top: 110px;
+      }
+      to {
+        margin-top: 100px;
+      }
+    }
 }
 
 @media (max-width: 575px) {
@@ -1074,8 +1134,9 @@ body.ratio #logo {
   }
 
     .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      animation: bounce 0.8s infinite alternate;
+      -webkit-animation: bounce 0.8s infinite alternate;
     }
     #copy-helper {
         top: 9px;
@@ -1085,6 +1146,24 @@ body.ratio #logo {
         width: 86%;
         margin: 0 auto;
     }
+
+@keyframes bounce {
+  from {
+     margin-top: 55px;
+  }
+  to {
+    margin-top: 40px;
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+     margin-top: 55px;
+  }
+  to {
+    margin-top: 40px;
+  }
+}
 }
 
 @media (max-width: 318px) {
@@ -1099,8 +1178,9 @@ body.ratio #logo {
   }
 
     .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      animation: bounce 0.8s infinite alternate;
+      -webkit-animation: bounce 0.8s infinite alternate;
     }
     #copy-helper {
         top: 5px;
@@ -1109,6 +1189,23 @@ body.ratio #logo {
         left: auto;
         width: 80%;
         margin: 0 auto;
+    }
+    @keyframes bounce {
+      from {
+         margin-top: 15px;
+      }
+      to {
+        margin-top: 5px;
+      }
+    }
+
+    @-webkit-keyframes bounce {
+      from {
+         margin-top: 15px;
+      }
+      to {
+        margin-top: 5px;
+      }
     }
 }
 
@@ -1123,18 +1220,38 @@ body.ratio #logo {
         margin-left: 45%;
   }
 
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+  .down {
+      transform: rotate(45deg);
+      animation: bounce 0.8s infinite alternate;
+      -webkit-animation: bounce 0.8s infinite alternate;
+  }
+
+  #copy-helper {
+      top: -10px;
+      top: 0.5vw;
+      padding: 0px 2% 5vw 3%;
+      left: auto;
+      width: 86%;
+      margin: 0 auto;
+  }
+
+  @keyframes bounce {
+    from {
+       margin-top: 10px;
     }
-    #copy-helper {
-        top: -10px;
-        top: 0.5vw;
-        padding: 0px 2% 5vw 3%;
-        left: auto;
-        width: 86%;
-        margin: 0 auto;
+    to {
+      margin-top: 5px;
     }
+  }
+
+  @-webkit-keyframes bounce {
+    from {
+       margin-top: 10px;
+    }
+    to {
+      margin-top: 5px;
+    }
+  }
 }
 
 @media (min-width: 1380px), (max-height: 780px) {
@@ -1144,10 +1261,9 @@ body.ratio #logo {
         width: 15px;
         height: 15px;
         display: inline-block;
-        margin-top: -15px;
+        margin-top: 150px;
 
   }
-
     .down {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
